@@ -11,7 +11,7 @@ namespace Tyuiu.MolodchikovEE.Sprint2.Task3.V20.Lib
 
             if (x > 1)
             {
-                y = x * (Math.Pow(((x+1)/(x-1)),2));
+                y = x * (Math.Pow(((x+1)/(x-1)),x));
             }
             else if (x == 0)
             {
