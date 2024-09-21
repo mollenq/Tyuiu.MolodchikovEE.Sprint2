@@ -50,7 +50,7 @@ namespace Tyuiu.MolodchikovEE.Sprint2.Task5.V8.Lib
                 default:
                     throw new ArgumentException($"Должен быть месяц от 1 до 12");
 
-            } return  res + " " + n;
+            } return n + "." + m;
         } 
     }
 }
