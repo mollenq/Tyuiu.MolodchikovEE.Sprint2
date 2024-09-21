@@ -8,7 +8,7 @@ namespace Tyuiu.MolodchikovEE.Sprint2.Task5.V8.Lib
         {
             
             m -= 1;
-            string result = m+"."+n;
+            string result = m+".0"+n;
             return result;
             
         }
